@@ -1,22 +1,10 @@
 {
 	"test_framework": "qunit",
 	"test_path": [
-		"test/index.html"
+		"test/index.html",
+		"test/autostart.html"
 	],
 	"browsers": [
-		"chrome_previous",
-		"chrome_latest",
-		"firefox_previous",
-		"firefox_latest",
-		"opera_previous",
-		"opera_latest",
-		"safari_previous",
-		"safari_latest",
-		"ie_6",
-		"ie_7",
-		"ie_8",
-		"ie_9",
-		"ie_10",
-		"ie_11"
+		"chrome_latest"
 	]
 }
