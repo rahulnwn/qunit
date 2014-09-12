@@ -47,7 +47,7 @@
     "testswarm": "1.1.0"
   },
   "scripts": {
-    "ci": "grunt && grunt coveralls",
+    "ci": "grunt && npm install browserstack-runner -q && node_modules/.bin/browserstack-runner",
     "test": "grunt",
     "prepublish": "grunt build"
   },
