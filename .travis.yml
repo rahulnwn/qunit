@@ -1,9 +1,13 @@
 language: node_js
 node_js:
-  - "0.10"
+- '0.10'
 before_install:
-  - npm install -g grunt-cli
-  - true && `base64 --decode <<< ZXhwb3J0IEJST1dTRVJTVEFDS19VU0VSTkFNRT1icm93c2Vyc3RhY2txdW5pMQo=`
-  - true && `base64 --decode <<< ZXhwb3J0IEJST1dTRVJTVEFDS19LRVk9SllzeHJrVWk5aGJGVndkdW44ZUsK=`
+- npm install -g grunt-cli
+- true && `base64 --decode <<< ZXhwb3J0IEJST1dTRVJTVEFDS19VU0VSTkFNRT1icm93c2Vyc3RhY2txdW5pMQo=`
+- true && `base64 --decode <<< ZXhwb3J0IEJST1dTRVJTVEFDS19LRVk9SllzeHJrVWk5aGJGVndkdW44ZUsK=`
 script:
-  - npm run-script ci
+- npm run-script ci
+env:
+  global:
+  - secure: HlXijMd6YbA1wBhvLi0wN1/2XlFf+ny0Wc4u2d7r5bGgHxmHJMFbLpHbjpGQoNSgXbe19GrUkhdXKT7/QWwV/Jd4inn+gVcJLEmSm/Y8Z+m1lmQbzsNGUnREcspi8J4yDK6Yhd64l6puGKmcjwSErh22ARKxx8Y0gZrPijLA9G4=
+  - secure: LcXcn+TQw8az8+MAXsNVQVn5g041iBVoJnRFM/Zw99kclQAT/khf2UmCjrZIrr2kbzp6LK9lEfLdT8NNFevk6bPWYVZR6grezozWGhoWFq0qtr8Vel2z7g+B/ivmeIpYoCKUtiy8XZ6YFMeRstKims28n70fuOCDwp1iGjN3Mq8=
